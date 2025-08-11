@@ -39,6 +39,9 @@ commands:
       description: Sluit een ticket zonder goedkeuring
     help:
       description: Toon het helpmenu
+      no_target:
+        title: ❌ Fout
+        description: Geef een geldige rol of gebruiker op.
       name: hulp
       response:
         commands: Opdrachten

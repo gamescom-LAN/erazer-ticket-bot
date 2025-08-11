@@ -45,6 +45,9 @@ commands:
         title: ✅ Messaggio attacato
   slash:
     add:
+      no_target:
+        title: ❌ Errore
+        description: Specifica un ruolo o utente valido.
       added: ➡️ {added} è stato aggiunto da {by}.
       description: Aggiungi un membro al ticket
       name: aggiungi

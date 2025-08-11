@@ -47,6 +47,9 @@ commands:
       name: Ticket aus Nachricht erstellen
   slash:
     add:
+      no_target:
+        title: ❌ Fehler
+        description: Bitte gib eine gültige rolle oder einen Benutzer an.
       added: ➡️ {added} wurde von {by} zum Ticket hinzugefügt.
       not_staff:
         title: ❌ Fehler

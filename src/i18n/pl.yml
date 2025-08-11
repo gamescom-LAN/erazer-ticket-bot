@@ -29,6 +29,9 @@ buttons:
 commands:
   slash:
     add:
+      no_target:
+        title: ❌ Błąd
+        description: Proszę podać prawidłową rolę lub użytkownika.
       not_staff:
         title: ❌ Błąd
         description: Tylko administracja może dodawać członków do zgłoszeń innych

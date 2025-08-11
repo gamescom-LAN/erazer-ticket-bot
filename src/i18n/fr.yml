@@ -47,6 +47,9 @@ commands:
       name: Transformer ce message en ticket
   slash:
     add:
+      no_target:
+        title: ❌ Erreur
+        description: Veuillez spécifier un rôle ou un utilisateur valide.
       not_staff:
         title: ❌ Erreur
         description: Seuls les membres de l'équipe peuvent ajouter des membres 

@@ -48,6 +48,9 @@ commands:
         title: ✅ Pinned message
   slash:
     add:
+      no_target:
+        title: ❌ Error
+        description: Please specify a valid role or user.
       added: ➡️ {added} has been added by {by}.
       description: Add a member to a ticket
       name: add

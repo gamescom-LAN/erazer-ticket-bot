@@ -53,9 +53,9 @@ commands:
       options:
         reason:
           name: причина
-          description: Причина закрытия тикета
-      name: закрыть
-      description: Запросить закрытие тикета
+      no_target:
+        title: ❌ Ошибка
+        description: Пожалуйста, укажите действительную роль или пользователя.
     force-close:
       confirm_multiple:
         title: ❓ Вы уверены?

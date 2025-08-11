@@ -1,6 +1,9 @@
 commands:
   slash:
     add:
+      no_target:
+        title: ❌ Error
+        description: Por favor, especifica un rol o usuario válido.
       options:
         ticket:
           name: ticket
